@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>T Trailer Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<head>
+
+<body><div id="loader">
+    <div class="spinner"></div>
+</div>
+
+<header>
+<nav>
+
+<div class="menu-btn" id="menuBtn">
+    ☰
+</div>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+<section id="home" class="reveal">
+
+<img src="profile.jpg" class="profile" alt="Profile">
+
+<h1>Hi, I'm Naman Nagar</h1>
+
+<p>Web Developer • Designer • Creator</p>
+
+<div class="buttons">
+
+<a href="resume.pdf" download>
+<button>📄 Download Resume</button>
+</a>
+<button id="themeBtn">🌙</button>
+<button onclick="changeTheme()">🌙 Theme</button>
+
+</div>
+
+</section>
+
+<section id="about" class="reveal">
+
+<h2>About Me</h2>
+
+<p>
+Welcome to my portfolio website. I am learning HTML, CSS and JavaScript and I love creating modern websites.
+</p>
+
+</section>
+
+<section id="skills" class="reveal">
+
+<h2>My Skills</h2>
+
+<div class="skill">
+<p>HTML</p>
+<div class="progress"><div class="html"></div></div>
+</div>
+
+<div class="skill">
+<p>CSS</p>
+<div class="progress"><div class="css"></div></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="progress"><div class="js"></div></div>
+</div>
+
+</section>
+
+<section id="projects" class="reveal">
+
+<h2>My Projects</h2>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Responsive website using HTML, CSS & JavaScript.</p>
+<button onclick="viewProject()">View Project</button>
+</div>
+
+</section>
+
+<section id="contact" class="reveal">
+
+<h2>Contact Me</h2>
+
+<a href="https://www.youtube.com" target="_blank">
+<button>YouTube</button>
+</a>
+
+<a href="https://www.google.com" target="_blank">
+<button>Google</button>
+</a>
+
+</section>
+
+<footer>
+<p>© 2026 T Trailer | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+<section id="home">
+  <div class="hero">
+    <h1 id="typing"></h1>
+    <p>Professional Web Developer & Designer</p>
+
+    <div class="hero-btn">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn2">Contact Me</a>
+    </div>
+</div>
+    <h1 id="typing">Welcome To My Website</h1>
+    <p id="clock"></p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Mere bare me yaha likhenge.</p>
+</section>
+
+<section id="skills">
+  <h2>My Skills</h2>
+
+<div class="skill">
+    <p>HTML</p>
+    <div class="bar">
+        <div class="fill html">95%</div>
+    </div>
+</div>
+
+<div class="skill">
+    <p>CSS</p>
+    <div class="bar">
+        <div class="fill css">90%</div>
+    </div>
+</div>
+
+<div class="skill">
+    <p>JavaScript</p>
+    <div class="bar">
+        <div class="fill js">80%</div>
+    </div>
+</div>
+    <h2>My Skills</h2>
+    <p>HTML, CSS, JavaScript</p>
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+
+<div class="projects">
+
+    <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>HTML, CSS & JavaScript से बनाई गई Modern Website.</p>
+    </div>
+
+    <div class="card">
+        <h3>Calculator</h3>
+        <p>Simple Calculator with JavaScript.</p>
+    </div>
+
+    <div class="card">
+        <h3>Weather App</h3>
+        <p>Live Weather API का उपयोग करके बनाया गया.</p>
+    </div>
+
+</div>
+</section>
+    <h2>My Projects</h2>
+    <p>Mere projects yaha dikhenge.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+
+<form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+
+    <input type="email" placeholder="Your Email" required>
+
+    <textarea placeholder="Your Message" rows="6" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+    <h2>Contact</h2>
+    <p>Email: example@gmail.com</p>
+</section>
+<button id="topBtn">⬆</button>
+<footer>
+    <h3>Kuldeep Nagar</h3>
+
+    <p>Web Developer | Designer | Creator</p>
+
+    <div class="social">
+        <a href="#">🌐</a>
+        <a href="#">📘</a>
+        <a href="#">📷</a>
+        <a href="#">▶️</a>
+    </div>
+
+    <p>© 2026 All Rights Reserved.</p>
+</footer>
+ </body>
+</html>
